@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* the first page--beginning */
+a, p, h1, h3{
+    color : #130245;
+}
+
+a, .create{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.create{
+    border: 1px solid black;
+    color : white;
+    padding: 10px;
+    background: #481E7E;
+    border-radius: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.gsizing{
+    width: 100%;
+    height: 1000px;
+}
+.smsizing{
+    width: 100%;
+    height: 600px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    text-decoration: none;
+    margin: 30px;
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.bgladypic{
+    position: absolute;
+    top: 54%;
+    right: 23%;
+    transform: translate(50%, -50%);
+}
+
+.landing{
+    position: absolute;
+    top: 54%;
+    right: 40%;
+    transform: translate(50%, -50%);    
+}
+
+.ptext{
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: -5%;
+    transform: translate(50%, -50%);
+}
+
+.theadtb{
+    margin: 30px 0;
+}
+
+.himg{
+    margin-right: 30px;
+}
+
+.big{
+    font-size: 60px;
+    font-weight: bold;
+}
+.med{
+    font-size: 23px;
+}
+.lar{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.split{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* the first page--ending */
+
+
+/* second page */
+.culone h1, .culone p{
+    text-align: center;
+}
+
+.cultwo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    margin-left: 260px;
+    margin-bottom: 30px;
+}
+/* second page */
+
+/* fourth page */
+.culthree{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    margin-left: 260px;
+    margin-bottom: 30px;
+}
+
+.bgimg{
+    background-image: url(images/fourthbg.png);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.margint{
+    padding: 40px;
+}
+
+/* third page */
+.bars{
+    width: 40px;
+    height: 5px;
+    border: 1px solid #F9B600;
+    background-color: #F9B600;
+    margin-top: 14px;
+    margin-right: 5px;
+}
+.yello{
+    color: #F9B600;
+    font-size: 23px;
+}
+.bgimgg{
+    background-image: url(images/second\ background.png);
+    display: flex;
+}
+.splitbars{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 5px;
+    margin-left: 200px;
+}
+.jcontnt{
+    justify-content: flex-end;
+}
+.bgimggtext{
+    width: 50%;
+}
+.sthree{
+    margin-top: 14px;
+    margin-right: 5px;
+    margin-left: 200px;
+}
+.imgbgimgg{
+    margin-left: 200px;
+}
+
+/* page */
+.bgimggg{
+    background-image: url(images/Transfer\ and\ Withdraw\ Moneybg.png);
+    display: flex;
+}
+.talign{
+    text-align: right;
+}
+
+/* page */
+.bgimgggg{
+    background-image: url(images/Bills\ Paymentbg.png);
+    display: flex;
+}
+.bgimggggg{
+    background-image: url(images/Agent\ Bankingbg.png);
+    display: flex;
+}
+.whitebg{
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.whitecul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    margin-left: 260px;
+    margin-bottom: 30px;
+}
+.bluebg{
+    background-color: #F2F5F8;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.culfour{
+    display: flex;
+    justify-content: center;
+}
+
+/* last page */
+.dbluebg{
+    background-color: rgb(0, 0, 65);
+    width: 100%;
+    height: 650px;
+}
+.lastgrid{
+    display: grid;
+    grid-template-columns: 30% 15% 15% 15% 25%;
+    width: 80%;
+    height: 500px;
+    align-content: center;
+    margin-left: 260px;
+}
+.whyte{
+    color: white;
+}
+.dbluebg h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.dbluebg p{
+    font-size: 15px;
+}
